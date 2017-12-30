@@ -1,0 +1,147 @@
+.page-header {
+  min-height: 255px;
+  padding: 37px 0;
+}
+
+.logo {
+  padding-left: 40px;
+}
+
+.social-icons {
+  text-align: center;
+  padding-top: 60px;
+  padding-right: 14px;
+  font-size: 0;
+}
+
+.social-icons__link {
+  display: inline-block;
+  padding: 10px;
+  font-size: 0;
+  margin-right: 50px;
+  position: relative;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    z-index: -1;
+    transition: background-color 200ms linear;
+  }
+
+  .icon {
+    fill: #fff;
+  }
+}
+
+.social-icons__link--vk {
+
+  &::before {
+    background-color: $vkColor;
+  }
+
+  &:hover::before {
+    background-color: lighten($vkColor, 10%);
+  }
+
+  &:active::before {
+    background-color: darken($vkColor, 15%);
+  }
+}
+
+.social-icons__link--fb {
+
+  &::before {
+    background-color: $fbColor;
+  }
+
+  &:hover::before {
+    background-color: lighten($fbColor, 10%);
+  }
+
+  &:active::before {
+    background-color: darken($fbColor, 15%);
+  }
+}
+
+.social-icons__link--insta {
+
+  &::before {
+    background-color: $instaColor;
+  }
+
+  &:hover::before {
+    background-color: lighten($instaColor, 10%);
+  }
+
+  &:active::before {
+    background-color: darken($instaColor, 15%);
+  }
+}
+
+.phone-number {
+  padding-top: 45px;
+  padding-right: 95px;
+  text-align: right;
+}
+
+.phone-number__link {
+  @include font("Roboto", 400, normal, 63px);
+
+  color: #000;
+  position: relative;
+
+  &:hover,
+  &:active,
+  &:visited,
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -20px;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background-color: $mainColor;
+    z-index: -2;
+    transition: background-color 200ms linear;
+  }
+
+  &:hover::before {
+    background-color: lighten($mainColor, 10%);
+  }
+
+  &:hover .icon {
+    fill: lighten($mainColor, 10%);
+  }
+
+  &::after {
+    top: 9px;
+    left: -13px;
+    width: 72px;
+    height: 72px;
+    background-color: #fff;
+    z-index: -1;
+  }
+
+  .icon {
+    margin-right: 60px;
+    fill: $mainColor;
+    transform: rotate(12deg);
+    transition: fill 200ms linear;
+  }
+}

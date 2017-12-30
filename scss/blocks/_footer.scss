@@ -1,0 +1,150 @@
+.page-footer {
+  background-image: url("../img/bg-images/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -250px;
+}
+
+.page-footer__wrap {
+  background-color: darken(rgba($mainColor, 0.9), 30%);
+}
+
+.contacts__wrap {
+  background-color: darken(rgba($mainColor, 0.75), 25%);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/logos/logo.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 30%;
+    top: 42%;
+    right: 8%;
+    opacity: 0.4;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/logos/company-name.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 10%;
+    top: 71%;
+    right: 7.5%;
+    opacity: 0.4;
+  }
+}
+
+.contacts__title {
+  @include font("Roboto", 600, normal, 70px);
+
+  color: #fff;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.contacts__wrap--links {
+  margin-top: 150px;
+  padding-left: 10px;
+  width: 60%;
+}
+
+.email,
+.phone {
+  margin-bottom: 20px;
+}
+
+.email__text,
+.phone__text,
+.social__text {
+  @include font("Roboto", 500, normal, 40px);
+
+  color: #fff;
+}
+
+.email__link,
+.phone__link {
+  @include font("Roboto", 300, normal, 40px);
+
+  display: block;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  padding-bottom: 100px;
+}
+
+.social-list__item {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social-list__link {
+
+  .icon {
+    fill: #fff;
+  }
+}
+
+.owner {
+  @include font("Roboto", 300, normal, 30px);
+
+  color: #fff;
+  width: 82%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.copy {
+  @include font("Roboto", 400, normal, 30px);
+
+  color: #fff;
+  width: 82%;
+  margin: 0 auto;
+
+  p {
+    margin: 0;
+    padding-bottom: 45px;
+  }
+}
+
+.rights {
+  @include font("Roboto", 300, normal, 30px);
+
+  color: #fff;
+  text-align: right;
+  width: 82%;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.rights__policy {
+  @include font("Roboto", 400, normal, 30px);
+
+  text-align: right;
+  width: 82%;
+  padding-right: 30px;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}

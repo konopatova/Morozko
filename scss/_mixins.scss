@@ -1,0 +1,8 @@
+//шрифт и его свойства
+
+@mixin font($font, $fontWeight, $fontStyle, $fontSize) {
+  font-family: $font, "Arial", sans-serif;
+  font-weight: $fontWeight;
+  font-style: $fontStyle;
+  font-size: $fontSize;
+}

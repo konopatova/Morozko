@@ -1,0 +1,119 @@
+.buying {
+  background-image: url("../img/bg-images/bg-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -35px;
+  text-align: center;
+  color: #fff;
+}
+
+.buying__wrap {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.buying__title {
+  @include font("Roboto", 600, normal, 70px);
+
+  margin-top: 130px;
+}
+
+.buying__descr {
+  @include font("Roboto", 400, normal, 35px);
+
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.buying__icons {
+  margin-top: 100px;
+}
+
+.apps-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.apps-list__item {
+  display: inline-block;
+  margin-right: 85px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.apps-list__link {
+  @include font("Roboto", 400, normal, 22px);
+
+  color: $mainColor;
+
+  &:hover {
+    text-decoration: none;
+    color: lighten($mainColor, 10%);
+
+    .icon {
+      fill: lighten($mainColor, 10%);
+    }
+  }
+
+  .icon {
+    margin: 0 auto;
+    display: block;
+    fill: $mainColor;
+    margin-bottom: 20px;
+  }
+}
+
+.phone-number--buyingSection {
+  margin-top: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.phone-number__link--buyingSection {
+  color: #fff;
+  transition: color 150ms linear;
+
+  &:hover {
+    color: $mainColor;
+  }
+}
+
+.mail {
+  margin: 70px 0;
+
+  .icon {
+    display: block;
+    margin: 0 auto;
+    fill: $mainColor;
+    margin-bottom: 10px;
+  }
+}
+
+.mail__link {
+  @include font("Roboto", 300, normal, 60px);
+
+  color: #fff;
+  transition: color 150ms linear;
+
+  &:hover {
+    text-decoration: none;
+    color: $mainColor;
+  }
+}
+
+.buying__paragraph {
+  @include font("Roboto", 300, normal, 28px);
+
+  width: 78%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.buying__wrap--button {
+  background-color: transparent;
+  padding: 50px 0 96px;
+}

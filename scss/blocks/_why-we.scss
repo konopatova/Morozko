@@ -1,0 +1,34 @@
+.why-we {
+  background-color: $yellowBgColor;
+  background-image: url("../img/bg-images/snowman.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -150px;
+}
+
+.why-we__title {
+  @include font("Roboto", 600, normal, 70px);
+
+  text-align: center;
+  color: $mainColor;
+  margin-top: 90px;
+}
+
+.why-we__wrap {
+  margin-top: 90px;
+}
+
+.why-we__paragraph {
+  @include font("Roboto", 300, normal, 28px);
+
+  text-align: justify;
+  color: #353535;
+  width: 88%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.why-we__wrap--button {
+  text-align: center;
+  padding: 170px 0 220px;
+}

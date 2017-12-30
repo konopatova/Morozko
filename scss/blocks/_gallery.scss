@@ -1,0 +1,121 @@
+.gallery {
+  padding-top: 105px;
+}
+
+.gallery__title {
+  @include font("Roboto", 600, normal, 70px);
+
+  color: $mainColor;
+  text-align: center;
+}
+
+.gallery__descr {
+  @include font("Roboto", 400, normal, 35px);
+
+  color: #242424;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.catalog {
+  padding-bottom: 72px;
+}
+
+.catalog-item {
+  text-align: center;
+  height: 680px;
+
+  .img-responsive {
+    margin: 0 auto;
+  }
+}
+
+.catalog-item__title {
+  @include font("Roboto", 400, normal, 40px);
+
+  color: #353535;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.catalog-item__links {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  span {
+    position: relative;
+    z-index: 2;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    background-color: $mainColor;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  &:hover .links-list {
+    transform: translateY(-45px) scale(1);
+  }
+}
+
+.links-list {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 50px 20px 70px;
+  font-size: 0;
+  background-color: $mainColor;
+  border-radius: 0 0 50px 50px;
+  transform: translateY(-350px) scale(0.3);
+  transition: transform 200ms linear;
+}
+
+.links-list__item {
+  display: inline-block;
+  margin-right: 34px;
+  padding-bottom: 40px;
+
+  &:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
+
+.links-list__button {
+
+  .icon {
+    fill: #fff;
+  }
+
+  &:hover .icon {
+    fill: lighten($mainColor, 40%);
+  }
+}
+
+.catalog-specs__wrap {
+  background-color: $grayBgColor;
+}
+
+.spec-list {
+  margin-top: 105px;
+  margin-left: 200px;
+  line-height: 70px;
+  padding-bottom: 125px;
+}
+
+.spec-list__title {
+  @include font("Roboto", 500, normal, 45px);
+
+  color: #242424;
+  margin-bottom: 10px;
+}
+
+.spec-list__value {
+  @include font("Roboto", 300, normal, 45px);
+
+  color: #242424;
+  margin: 0;
+}

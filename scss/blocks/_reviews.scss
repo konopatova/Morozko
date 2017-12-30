@@ -1,0 +1,85 @@
+.reviews {
+  padding-top: 110px;
+  color: #353535;
+}
+
+.reviews__title {
+  @include font("Roboto", 600, normal, 70px);
+
+  color: $mainColor;
+  text-align: center;
+}
+
+.reviews__wrap {
+  margin-top: 140px;
+}
+
+.reviews-item {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 230px;
+    height: 200px;
+    background-image: url("../img/bg-images/quote.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 68px;
+    right: 115px;
+    opacity: 0.1;
+  }
+}
+
+.reviews-item__img-wrap {
+  width: 370px;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.reviews-item__text-wrap {
+  width: 80%;
+  margin-left: 110px;
+}
+
+.reviews-item__author {
+  @include font("Roboto", 500, normal, 40px);
+
+  display: block;
+}
+
+.reviews-item__location {
+  @include font("Roboto", 300, normal, 30px);
+}
+
+.reviews-item__paragraph {
+  @include font("Roboto", 300, normal, 30px);
+
+  margin-bottom: 200px;
+}
+
+.reviews__wrap--more-reviews {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+  a {
+    @include font("Roboto", 300, normal, 35px);
+
+    color: #353535;
+    text-decoration: underline;
+
+    &:hover {
+      color: $mainColor;
+    }
+  }
+}
+
+.reviews__wrap--button {
+  margin-top: 60px;
+  text-align: center;
+  padding-bottom: 153px;
+}

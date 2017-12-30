@@ -1,0 +1,65 @@
+.advices {
+  background-color: $greenBgColor;
+  background-image: url("../img/bg-images/valenok.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  color: #fff;
+}
+
+.advices__title {
+  @include font("Roboto", 600, normal, 70px);
+
+  margin-top: 132px;
+}
+
+.advices-item {
+  padding-top: 45px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: -235px;
+    width: 190px;
+    height: 205px;
+    background-image: url("../img/icons/sprite.png");
+    background-repeat: no-repeat;
+    background-size: center;
+  }
+}
+
+.advices-item--radiator {
+
+  &::before {
+    background-position: -1000px -905px;
+  }
+}
+
+.advices-item--box {
+
+  &::before {
+    background-position: -790px -661px;
+  }
+}
+
+.advices-item--brush {
+
+  &::before {
+    background-position: -370px -350px;
+  }
+}
+
+.advices-item__paragraph {
+  @include font("Roboto", 400, normal, 28px);
+
+  line-height: 35px;
+  text-align: left;
+  width: 70%;
+}
+
+.advices__wrap--button {
+  padding: 40px 0 112px;
+}

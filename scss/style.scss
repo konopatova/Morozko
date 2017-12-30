@@ -1,0 +1,25 @@
+//служебные импорты
+@import "normalize";
+@import "mixins";
+@import "fonts";
+@import "libs";
+@import "variables";
+
+//глобальные стили
+@import "globalStyle";
+
+//blocks
+@import "./blocks/header";
+@import "./blocks/promo";
+@import "./blocks/advantages";
+@import "./blocks/sizes";
+@import "./blocks/advices";
+@import "./blocks/buying";
+@import "./blocks/why-we";
+@import "./blocks/gallery";
+@import "./blocks/reviews";
+@import "./blocks/faq";
+@import "./blocks/footer";
+
+//media - всегда в конце
+@import "media";

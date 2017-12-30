@@ -1,0 +1,91 @@
+.promo {
+  background-image: url("../img/bg-images/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo__wrap {
+  text-align: center;
+}
+
+.promo__wrap--button {
+  margin: 50px 0 120px;
+}
+
+.promo__title {
+  @include font("Roboto", 100, normal, 147px);
+  color: #fff;
+  letter-spacing: 57px;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+
+.promo__title--thiccText {
+  display: block;
+  @include font("Roboto", 600, normal, 82px);
+  letter-spacing: 35px;
+}
+
+.promo__text {
+  @include font("Roboto", 100, normal, 70px);
+  color: #fff;
+  margin: 0;
+}
+
+.promo__features {
+  text-align: center;
+  color: #fff;
+}
+
+.promo-features-item {
+  padding-top: 280px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 180px;
+    top: 80px;
+    left: 50%;
+    background-image: url("../img/icons/sprite.png");
+    background-repeat: no-repeat;
+    transform: translate(-50%);
+  }
+}
+
+.promo-features-item__title {
+  display: block;
+  @include font("Roboto", 700, normal, 35px);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.promo-features-item__descr {
+  @include font("Roboto", 300, normal, 28px);
+  padding: 0 75px;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
+.promo-features-item--fast {
+
+  &::before {
+    background-position: -180px -160px;
+  }
+}
+
+.promo-features-item--delivery {
+
+  &::before {
+    background-position: 20px 20px;
+  }
+}
+
+.promo-features-item--guarantee {
+
+  &::before {
+    background-position: -570px -502px;
+  }
+}

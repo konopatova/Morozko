@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  @include font("Roboto", 400, normal, 16px);
+  background-color: #fff;
+  color: $textColor;
+}
+
+.container {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.line {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -52px;
+    left: 50%;
+    width: 14%;
+    height: 10px;
+    border-radius: 16px;
+    background-color: $mainColor;
+    transform: translate(-50%);
+  }
+}
+
+.line--white {
+
+  &::before {
+    background-color: #fff;
+  }
+}
+
+.btn {
+  display: inline-block;
+  @include font("Roboto", 700, normal, 35px);
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 30px 140px;
+  border-radius: 100px;
+  background-color: $mainColor;
+  transition: background-color 150ms linear;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: lighten($mainColor, 10%);
+  }
+
+  &:active {
+    background-color: darken($mainColor, 10%);
+  }
+}
+
+.btn--invert {
+  background-color: #fff;
+  color: $greenBgColor;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+    color: $greenBgColor;
+  }
+
+  &:hover {
+    background-color: #fff;
+    color: lighten($greenBgColor, 10%);
+  }
+
+  &:active {
+    color: darken($greenBgColor, 10%);
+  }
+}

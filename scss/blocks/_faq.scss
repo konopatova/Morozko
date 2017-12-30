@@ -1,0 +1,87 @@
+.faq {
+  background-color: $yellowDarkBgColor;
+  background-image: url("../img/bg-images/q.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.faq__title {
+  @include font("Roboto", 600, normal, 70px);
+
+  color: #545454;
+  text-align: center;
+  margin-top: 165px;
+}
+
+.faq-list {
+  @include font("Roboto", 400, normal, 30px);
+
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.faq-list__question {
+  text-align: right;
+  color: #fff;
+  background-color: $mainColor;
+  padding: 50px;
+  margin-left: auto;
+  border-radius: 20px;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 93%;
+    right: 3%;
+    transform: rotate(-15deg);
+    width: 0;
+    height: 0;
+    border-top: 50px solid $mainColor;
+    border-left: 50px solid transparent;
+  }
+}
+
+.faq-list__answer {
+  color: #161616;
+  background-color: $yellowBgColor;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 50px auto 130px 0;
+  width: 90%;
+  position: relative;
+
+  &:last-of-type {
+    width: 50%;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 96%;
+    left: 2%;
+    transform: rotate(15deg);
+    width: 0;
+    height: 0;
+    border-top: 50px solid $yellowBgColor;
+    border-right: 50px solid transparent;
+  }
+}
+
+.dont-find-answer {
+  @include font("Roboto", 400, normal, 35px);
+
+  text-align: center;
+  color: #181818;
+  margin: 0;
+}
+
+.faq__wrap--button {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 125px;
+}
