@@ -1638,20 +1638,20 @@ body {
   margin-bottom: 120px; }
 
 .advices {
-  background-color: #31683c;
   background-image: url("../img/bg-images/valenok.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
   text-align: center;
-  color: #fff; }
+  color: #000; }
 
 .advices__title {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 70px;
-  margin-top: 132px; }
+  margin-top: 132px;
+  color: #ed1e67; }
 
 .advices-item {
   padding-top: 45px;
@@ -1663,18 +1663,17 @@ body {
     left: -235px;
     width: 190px;
     height: 205px;
-    background-image: url("../img/icons/sprite.png");
     background-repeat: no-repeat;
     background-size: center; }
 
 .advices-item--radiator::before {
-  background-position: -1000px -905px; }
+  background-image: url("../img/bg-images/advice-1.png");}
 
 .advices-item--box::before {
-  background-position: -790px -661px; }
+  background-image: url("../img/bg-images/advice-2.png");}
 
 .advices-item--brush::before {
-  background-position: -370px -350px; }
+  background-image: url("../img/bg-images/advice-3.png"); }
 
 .advices-item__paragraph {
   font-family: "Roboto", "Arial", sans-serif;
