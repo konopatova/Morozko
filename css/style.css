@@ -1243,7 +1243,6 @@ body {
   padding: 30px 0; }
 
 .social-icons {
-  text-align: center;
   padding: 60px 0;
   font-size: 0;
   white-space: nowrap; }
@@ -1313,7 +1312,6 @@ body {
 .phone-number {
   padding: 60px 0;
   padding-right: 95px;
-  text-align: right;
   white-space: nowrap; }
   .phone-number::before {
     content: "";
@@ -1387,14 +1385,15 @@ body {
   margin: 50px 0 120px; }
 
 .promo__title {
+  padding: 10px 0 0 0;
+  margin-bottom: 90px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 147px;
   color: #fff;
   letter-spacing: 57px;
-  text-transform: uppercase;
-  margin-bottom: 90px; }
+  text-transform: uppercase; }
 
 .promo__title--thiccText {
   display: block;
@@ -1413,6 +1412,7 @@ body {
   margin: 0; }
 
 .promo__features {
+  padding: 0 90px;
   text-align: center;
   color: #fff; }
 
@@ -1446,7 +1446,7 @@ body {
   font-weight: 300;
   font-style: normal;
   font-size: 28px;
-  padding: 0 75px;
+  /*padding: 0 75px;*/
   margin: 0 auto;
   line-height: 1.2; }
 
