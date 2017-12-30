@@ -1245,7 +1245,8 @@ body {
 .social-icons {
   text-align: center;
   padding: 60px 0;
-  font-size: 0; }
+  font-size: 0;
+  white-space: nowrap; }
 
 .social-icons__link {
   display: inline-block;
@@ -1312,7 +1313,8 @@ body {
 .phone-number {
   padding: 60px 0;
   padding-right: 95px;
-  text-align: right; }
+  text-align: right;
+  white-space: nowrap; }
   .phone-number::before {
     content: "";
     position: relative;
