@@ -1237,27 +1237,38 @@ body {
     color: #214528; }
 
 .page-header {
-  min-height: 255px;
-  padding: 37px 0; }
+  padding: 30px 0; }
 
 .logo {
-  padding-left: 40px; }
+  padding: 30px 0; }
 
 .social-icons {
   text-align: center;
-  padding-top: 60px;
-  padding-right: 14px;
+  padding: 60px 0;
   font-size: 0; }
 
 .social-icons__link {
   display: inline-block;
   padding: 10px;
+  width: 76px;
+  height: 76px;
   font-size: 0;
-  margin-right: 50px;
-  position: relative; }
+  margin-right: 30px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .social-icons__link:last-child {
     margin-right: 0; }
-  .social-icons__link::before {
+
+.social-icons__link--vk {
+  background-image: url("../img/bg-images/icon-vk.png"); }
+
+.social-icons__link--fb {
+  background-image: url("../img/bg-images/icon-fb.png"); } 
+
+.social-icons__link--insta {
+  background-image: url("../img/bg-images/icon-instagram.png"); }
+ /* .social-icons__link::before {
     content: "";
     position: absolute;
     top: -10px;
@@ -1296,53 +1307,59 @@ body {
   background-color: #78a2c5; }
 
 .social-icons__link--insta:active::before {
-  background-color: #396385; }
+  background-color: #396385; }*/
 
 .phone-number {
-  padding-top: 45px;
+  padding: 60px 0;
   padding-right: 95px;
   text-align: right; }
-
+  .phone-number::before {
+    content: "";
+    position: relative;
+    margin-right: 12px;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    background-image: url("../img/bg-images/icon-phone.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
 .phone-number__link {
   font-family: "Roboto", "Arial", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  font-size: 63px;
+  font-size: 54px;
   color: #000;
   position: relative; }
   .phone-number__link:hover, .phone-number__link:active, .phone-number__link:visited, .phone-number__link:focus {
     text-decoration: none;
     color: inherit; }
-  .phone-number__link::before, .phone-number__link::after {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: -20px;
-    width: 86px;
-    height: 86px;
-    border-radius: 50%;
-    background-color: #ed1e67;
-    z-index: -2;
-    -webkit-transition: background-color 200ms linear;
-    transition: background-color 200ms linear; }
-  .phone-number__link:hover::before {
-    background-color: #f14d87; }
-  .phone-number__link:hover .icon {
-    fill: #f14d87; }
-  .phone-number__link::after {
-    top: 9px;
-    left: -13px;
-    width: 72px;
-    height: 72px;
-    background-color: #fff;
-    z-index: -1; }
-  .phone-number__link .icon {
-    margin-right: 60px;
-    fill: #ed1e67;
-    -webkit-transform: rotate(12deg);
-            transform: rotate(12deg);
-    -webkit-transition: fill 200ms linear;
-    transition: fill 200ms linear; }
+
+.basket {
+  padding: 60px 0;
+  font-size: 0; }
+  .basket__link {
+    width: 84px;
+    height: 66px;
+    display: inline-block;
+    background-image: url("../img/bg-images/icon-basket.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.basket__order {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 0;
+  background-color: #ed1e67;
+  border: 4px solid #fff;
+  transform: translate(20%,150%);
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  text-align: center; }
 
 .promo {
   background-image: url("../img/bg-images/bg-1.jpg");
