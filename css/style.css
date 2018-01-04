@@ -2206,7 +2206,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 26px;
   color: #fff;
   width: 82%;
   margin: 0 auto;
@@ -2216,7 +2216,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 26px;
   color: #fff;
   width: 82%;
   margin: 0 auto; }
@@ -2228,9 +2228,8 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 26px;
   color: #fff;
-  text-align: right;
   width: 82%;
   padding-top: 20px;
   padding-right: 30px; }
@@ -2239,8 +2238,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
-  text-align: right;
+  font-size: 26px;
   width: 82%;
   padding-right: 30px; }
   .rights__policy a {
