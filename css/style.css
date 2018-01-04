@@ -1204,6 +1204,8 @@ body {
 
 .btn {
   display: inline-block;
+  width: 588px;
+  padding: 28px 0;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -1211,7 +1213,6 @@ body {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 30px 140px;
   border-radius: 100px;
   background-color: #ed1e67;
   -webkit-transition: background-color 150ms linear;
@@ -1399,7 +1400,7 @@ body {
 
 .promo__wrap--button {
   position: relative;
-  margin: 120px 0 120px; }
+  margin: 80px 0 120px; }
 
 .promo__title {
   padding: 10px 0 0 0;
@@ -1459,7 +1460,7 @@ body {
   margin-bottom: 15px; }
 
 .promo-features-item__descr {
-  padding: 0 55px;
+  padding: 0 20px;
   margin: 0 auto;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
@@ -1477,7 +1478,7 @@ body {
   background-position: -570px -502px; }
 
 .advantages {
-  padding: 0 70px;
+  padding: 0 90px;
   background-image: url("../img/bg-images/snowman.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1521,7 +1522,8 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 28px; }
+  font-size: 28px;
+  line-height: 1.1; }
 
 .advantages-img {
   width: 100%;
@@ -1536,23 +1538,21 @@ body {
   height: auto; }
 
 .advantages-img--beige {
-  width: 60%;
+  width: 80%;
+  margin-top: -100px;
   height: auto; }
 
 .advantages__wrap--button {
-  margin: 70px 0 140px; }
+  margin: 130px 0 140px; }
 
 .sizes {
   background-image: url("../img/bg-images/bg-4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-background-position: 0 -35px;
+  background-position: 0 -35px;
   text-align: center;
   color: #fff; }
-
-.sizes__wrap {
-  padding-top: 90px; }
 
 .sizes__title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -1641,7 +1641,7 @@ background-position: 0 -35px;
 
 .sizes__wrap--btn {
   background-color: transparent;
-  margin-bottom: 120px; }
+  margin: 120px 0 120px 0; }
 
 .advices {
   background-image: url("../img/bg-images/valenok.png");
