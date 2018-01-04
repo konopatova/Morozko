@@ -2187,7 +2187,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 40px;
+  font-size: 36px;
   color: #fff; }
 
 .email__link,
@@ -2195,7 +2195,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 40px;
+  font-size: 36px;
   display: block;
   color: #fff; }
   .email__link:hover,
@@ -2218,6 +2218,17 @@ body {
 
 .social-list__link .icon {
   fill: #fff; }
+
+.footer-links-list__item {
+  display: block; 
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 36px;
+  color: #fff;
+  text-decoration: underline; }
+  .footer-links-list__item:hover {
+    color: #fff; }
 
 .owner {
   font-family: "Roboto", "Arial", sans-serif;
