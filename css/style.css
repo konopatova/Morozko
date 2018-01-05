@@ -2223,7 +2223,8 @@ body {
   padding: 0 35px; }
 
 .footer-links-list__item {
-  display: block; 
+  display: block;
+  padding: 8px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -2261,7 +2262,6 @@ body {
   font-style: normal;
   font-size: 26px;
   color: #fff;
-  width: 82%;
   padding-top: 20px;
   padding-right: 30px; }
 
@@ -2270,12 +2270,33 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 26px;
-  width: 82%;
   padding-right: 30px; }
   .rights__policy a {
     color: #fff;
     text-decoration: underline; }
 
+.about {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 0;
+  text-align: center;
+  cursor: pointer; }
+  .about__link {
+    padding-top: 140px;
+    position: relative;
+    margin-top: 40px;
+    display: block;
+    font-size: 26px; 
+    background-image: url("../img/icons/about.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e39f35;
+    text-decoration: underline; }
+    .about__link:hover {
+      color: #e39f35; }
+    .about__link:visited {
+      color: #e39f35; }
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
