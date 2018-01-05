@@ -2174,8 +2174,7 @@ body {
 
 .contacts__wrap--links {
   margin-top: 150px;
-  padding-left: 10px;
-  width: 60%; }
+  padding-left: 10px;}
 
 .email,
 .phone {
@@ -2217,7 +2216,11 @@ body {
     margin-right: 0; }
 
 .social-list__link .icon {
-  fill: #fff; }
+  fill: #fff;
+ }
+
+.footer-links-list {
+  padding: 0 35px; }
 
 .footer-links-list__item {
   display: block; 
