@@ -2233,6 +2233,8 @@ body {
   text-decoration: underline; }
   .footer-links-list__item:hover {
     color: #fff; }
+  .footer-links-list__item:visited {
+    color: #fff; }
 
 .owner {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2297,6 +2299,96 @@ body {
       color: #e39f35; }
     .about__link:visited {
       color: #e39f35; }
+
+.basket-form {
+  width: 100%;
+  background-color: #fff;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color: #000; }
+
+.basket-form__table {
+  width: 100%; }
+
+.basket-form__td {
+  padding: 20px; }
+
+.basket-form__tr.line--grey{
+  border-bottom: 3px solid #afafaf; }
+
+.basket-form__title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 70px;
+  color: #ed1e67; 
+  text-align: center;
+  margin-top: 130px; }
+
+.order__item-select {
+  width: 136px;
+  border: 2px solid #ed1e67;
+  border-radius: 30px;
+  padding: 6px;
+  background-color: #fff;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  color: #000;
+  text-align: center; }
+
+.order__item-option {
+  border: 2px solid #ed1e67;
+  border-radius: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  color: #000; }
+
+.order__item-color, .order__item-sum {
+  font-weight: bold; }
+
+.order__item-input--number {
+  width: 148px;
+  border: 2px solid #ed1e67;
+  border-radius: 30px;
+  padding: 6px;
+  background-color: #fff;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  color: #000;
+  text-align: center; }
+
+.basket-form__close {
+  position: relative;
+  width: 100%; }
+
+.basket-form__close--big {
+  position: absolute;
+  left: 95%;
+  top: 50%; 
+  width: 72px;
+  height: 72px;
+  fill: #ed1e67;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;}
+
+.basket-form__table svg {
+  width: 48px;
+  height: 48px;
+  fill: #dbdbdb; }
+
+.basket-form__close--small {
+  position: relative;
+  top: -60px;
+  cursor: pointer;}
+  
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
