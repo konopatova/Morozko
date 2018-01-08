@@ -1223,6 +1223,8 @@ body {
   .btn:hover {
     background-color: #f14d87; }
   .btn:active {
+    position: relative;
+    top: 3px; 
     background-color: #c81051; }
 
 .btn--invert {
@@ -2479,9 +2481,6 @@ body {
 
 .form__wrap--button .btn {
   width: 516px; }
-  .form__wrap--button .btn:active {
-    position: relative;
-    top: 3px; }
 
 .flex--nowrap {
   display: flex;
