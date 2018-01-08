@@ -870,7 +870,7 @@
             <tbody>
               <div class="order__item">
               <tr class="basket-form__tr">
-              <td class="basket-form__td" rowspan="2">
+              <td class="basket-form__td line--grey" rowspan="2">
                 <a class="order__item-link" href="#">
                   <img src="./img/items/basket-item-1.png" alt="Товар 1" class="img-responsive order__item-img"></a></td>
               
@@ -919,7 +919,7 @@
 
         <div class="order__item">
             <tr class="basket-form__tr">
-            <td class="basket-form__td" rowspan="2">
+            <td class="basket-form__td line--grey" rowspan="2">
               <a class="order__item-link" href="#">
                 <img src="./img/items/basket-item-2.png" alt="Товар 2" class="img-responsive order__item-img"></a></td>
             
@@ -967,7 +967,7 @@
 
       <div class="order__item">
           <tr class="basket-form__tr">
-          <td class="basket-form__td" rowspan="2">
+          <td class="basket-form__td line--grey" rowspan="2">
             <a class="order__item-link" href="#">
               <img src="./img/items/basket-item-3.png" alt="Товар 3" class="img-responsive order__item-img"></a></td>
           
@@ -1011,11 +1011,52 @@
             </a>
             </td>
       </tr>
+      <tr class="basket-form__tr">
+          <td class="basket-form__td"></td>
+          <td class="basket-form__td"></td>
+          <td class="basket-form__td"></td>
+          <td class="basket-form__td line--grey" colspan="2">
+              Доставка: <span class="order__item-delivery">300</span> руб.
+              </td>
+      </tr>
+      <tr class="basket-form__tr ">
+          <td class="basket-form__td"></td>
+          <td class="basket-form__td"></td>
+          <td class="basket-form__td"></td>
+          <td class="basket-form__td line--pink" colspan="2">
+              <span class="order__item-total">Итого: 14 850</span> <span>руб.</span>
+              </td>
+      </tr>
     </div>
-      
-        
           </tbody>
         </table>
+ 
+        <form action="#" method="get" class="basket-form__form">
+            <div class="row">
+              
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                     <span class="basket-form__form__title">Данные для доставки:</span>
+                </div>
+
+                <div class="input-group">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+            <input type="text" name="your_name" id="your_name" placeholder="Ваше имя" class="form__input">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+            <input type="number" name="your_phone" id="your_phone" placeholder="Ваш телефон" class="form__input">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+            <input type="email" name="your_email" id="your_email" placeholder="Ваш e-mail" class="form__input">
+               </div>
+              </div>
+
+               <div class="col-lg-12 col-md-12 col-sm-12">
+            <textarea name="address" id="your_address" class="form__textarea" >Полный адрес доставки (страна, область, город, индекс, улица, дом, квартира)</textarea>
+               </div>
+               <div class="form__wrap--button">
+                  <button class="btn">Оформить заказ</button>
+                </div>
+        </form>
     </div>
  
   </footer>
