@@ -2112,7 +2112,7 @@ body {
 .page-footer {
   background-image: url("../img/bg-images/bg-2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: 0 -250px; }
   /*.page-footer::after {
     content: "";
@@ -2128,12 +2128,13 @@ body {
 .contacts__wrap {
   background-color: rgba(140, 18, 59, 0.85);
   position: relative;
+  padding-bottom: 100px;
   box-shadow: 0 -300px 450px rgba(237, 30, 106, 0.55) inset }
   .contacts__wrap::before {
     content: "";
     position: absolute;
     background-image: url("../img/logos/logo.png");
-    background-size: 70%;
+    background-size: 60%;
     background-repeat: no-repeat;
     width: 20%;
     height: 30%;
@@ -2144,7 +2145,7 @@ body {
       content: "";
       position: absolute;
       background-image: url("../img/logos/logo.png");
-      background-size: 70%;
+      background-size: 60%;
       background-repeat: no-repeat;
       width: 20%;
       height: 30%;
@@ -2155,13 +2156,17 @@ body {
     content: "";
     position: absolute;
     background-image: url("../img/logos/company-name.png");
-    background-size: 65%;
+    background-size: 60%;
     background-repeat: no-repeat;
     width: 20%;
     height: 10%;
     top: 71%;
-    right: 7.5%;
+    right: 8%;
     opacity: 0.15; }
+
+.contacts__list {
+    padding-top: 120px;
+    margin-left: 110px; }
 
 .contacts__title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2205,8 +2210,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 0;
-  list-style: none;
-  padding-bottom: 100px; }
+  list-style: none; }
 
 .social-list__item {
   display: inline-block;
@@ -2218,9 +2222,6 @@ body {
 .social-list__link .icon {
   fill: #fff;
  }
-
-.footer-links-list {
-  padding: 0 35px; }
 
 .footer-links-list__item {
   display: block;
@@ -2237,28 +2238,29 @@ body {
     color: #fff; }
 
 .owner {
+  padding-left: 110px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 26px;
   color: #fff;
-  width: 82%;
   margin: 0 auto;
   padding-top: 20px; }
 
 .copy {
+  padding-left: 110px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 26px;
   color: #fff;
-  width: 82%;
   margin: 0 auto; }
   .copy p {
     margin: 0;
     padding-bottom: 45px; }
 
 .rights {
+  padding-left: 70px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -2268,6 +2270,7 @@ body {
   padding-right: 30px; }
 
 .rights__policy {
+  padding-left: 70px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -2364,20 +2367,16 @@ body {
   color: #000;
   text-align: center; }
 
-.basket-form__close {
-  position: relative;
-  width: 100%; }
-
 .basket-form__close--big {
-  position: absolute;
+  position: relative;
   left: 95%;
-  top: 50%; 
   width: 72px;
   height: 72px;
   fill: #ed1e67;
   cursor: pointer;
   background-color: transparent;
-  border: none;}
+  border: none;
+  transform: translateY(-180px);}
 
 .basket-form__table svg {
   width: 48px;
