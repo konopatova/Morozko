@@ -2361,8 +2361,6 @@ body {
   .order__item-select:hover {
     border: 2px solid #ed1e67; }
   .order__item-select:active {
-    position: relative;
-    top: 3px;
     border: 2px solid #ac1248; }
 
 .order__item-option {
@@ -2393,12 +2391,11 @@ body {
   font-style: normal;
   font-size: 26px;
   color: #000;
-  text-align: center; }
+  text-align: center;
+  cursor: default; }
   .order__item-input--number:hover {
     border: 2px solid #ed1e67; }
   .order__item-input--number:active {
-    position: relative;
-    top: 3px;
     border: 2px solid #ac1248; }
 
 
