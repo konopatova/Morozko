@@ -2248,12 +2248,13 @@ body {
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid #fff; }
-  .footer-links-list__item:hover {
-    color: #f9aac6;
-    text-decoration: none;  }
   .footer-links-list__item:visited {
     color: #fff;
     text-decoration: none;  }
+  .footer-links-list__item:hover {
+    color: #f9aac6;
+    text-decoration: none;  }
+  
 
 .owner {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2296,7 +2297,7 @@ body {
     .rights__policy a:hover {
       color: #ed1e67; }
       .rights__policy a:visited {
-      color: #ed1e67; }
+      color: #fff; }
 
 .about {
   font-family: "Roboto", "Arial", sans-serif;
