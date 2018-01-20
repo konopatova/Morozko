@@ -1516,12 +1516,15 @@ body {
   background-position: -570px -502px; }
 
 .advantages {
-  padding: 110px 0 90px 0;
+  padding: 110px 0 0px 0;
   background-image: url("../img/bg-images/snowman.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 50px;
   text-align: center; }
+
+.advantages-wrap {
+  padding: 0 50px; }
 
 .advantages__title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -1561,24 +1564,20 @@ body {
   line-height: 1.1; }
 
 .advantages-img {
-  width: 100%;
-  height: auto;
   margin: 0 auto; }
 
 .advantages-img--red {
   margin-top: 80px; }
 
 .advantages-img--green {
-  width: 65%;
   height: auto; }
 
 .advantages-img--beige {
-  width: 80%;
-  margin-top: -100px;
+  margin-top: -70px;
   height: auto; }
 
 .advantages__wrap--button {
-  margin: 130px 0 140px; }
+  margin: 90px 0 130px; }
 
 .sizes {
   padding-top: 110px;
