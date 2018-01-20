@@ -1516,13 +1516,12 @@ body {
   background-position: -570px -502px; }
 
 .advantages {
-  padding: 0 90px;
+  padding: 110px 0 90px 0;
   background-image: url("../img/bg-images/snowman.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 50px;
-  text-align: center;
-  padding-top: 80px; }
+  text-align: center; }
 
 .advantages__title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -1582,6 +1581,7 @@ body {
   margin: 130px 0 140px; }
 
 .sizes {
+  padding-top: 110px;
   background-image: url("../img/bg-images/bg-4.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1713,7 +1713,8 @@ body {
   background-image: url("../img/bg-images/advice-1.png");}
 
 .advices-item--box::before {
-  background-image: url("../img/bg-images/advice-2.png");}
+  background-image: url("../img/bg-images/advice-2.png");
+  top: 120px;}
 
 .advices-item--brush::before {
   background-image: url("../img/bg-images/advice-3.png"); }
@@ -1907,7 +1908,7 @@ body {
   margin-bottom: 25px; }
 
 .catalog-item__links {
-  width: 60%;
+  width: 362px;
   margin: 0 auto;
   overflow: hidden; }
   .catalog-item__links span {
@@ -2060,11 +2061,16 @@ body {
   padding-bottom: 153px; }
 
 .faq {
-  background-color: #decea3;
+  background-color: #f1e6c8;
   background-image: url("../img/bg-images/q.png");
+  background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0; }
+  .faq::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.25); }
 
 .faq__title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2080,6 +2086,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+  line-height: 1.2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2113,14 +2120,14 @@ body {
 
 .faq-list__answer {
   color: #161616;
-  background-color: #f1e6c8;
+  background-color: #ffffff;
   padding: 50px;
   border-radius: 20px;
   margin: 50px auto 130px 0;
   width: 90%;
   position: relative; }
-  .faq-list__answer:last-of-type {
-    width: 50%; }
+  .faq-list__answer.answer--small {
+    width: 78%; }
   .faq-list__answer:before {
     content: "";
     position: absolute;
@@ -2130,7 +2137,7 @@ body {
             transform: rotate(15deg);
     width: 0;
     height: 0;
-    border-top: 50px solid #f1e6c8;
+    border-top: 50px solid #ffffff;
     border-right: 50px solid transparent; }
 
 .dont-find-answer {
