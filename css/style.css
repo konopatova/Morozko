@@ -2343,10 +2343,13 @@ body {
   white-space: nowrap; }
 
 .line--grey{
-  border-bottom: 3px solid #afafaf; }
+  border-bottom: 2px solid #afafaf; }
 
 .line--pink{
-  border-bottom: 3px solid #ed1e67; }
+  border-bottom: 4px solid #ed1e67; }
+
+.basket-total {
+  text-align: right;}
 
 .basket-form__title {
   font-family: "Roboto", "Arial", sans-serif;
