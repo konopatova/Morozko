@@ -2154,9 +2154,9 @@ body {
   padding-bottom: 125px; }
 
 .page-footer {
-  background-image: url("../img/bg-images/bg-2.jpg");
+  background-image: url("../img/bg-images/bg-2.png");
   background-repeat: no-repeat;
-  background-size: 110%; }
+  background-size: auto; }
 
 .page-footer__wrap {
   background-color: rgba(0, 0, 0, 0.25); }
