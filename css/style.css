@@ -1702,15 +1702,11 @@ body {
   padding: 40px 0 112px; }
 
 .buying {
-  background-image: url("../img/bg-images/bg-3.jpg");
+  background-image: url("../img/bg-images/bg-3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 -35px;
   text-align: center;
   color: #fff; }
-
-.buying__wrap {
-  background-color: rgba(0, 0, 0, 0.7); }
 
 .buying__title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -1739,7 +1735,8 @@ body {
 
 .apps-list__item {
   display: inline-block;
-  margin-right: 85px; }
+  vertical-align: top;
+  margin-right: 72px; }
   .apps-list__item:last-child {
     margin-right: 0; }
 
@@ -1758,15 +1755,18 @@ body {
     .apps-list__link:hover .icon {
       fill: #f14d87; }
   .apps-list__link .icon {
+    display: block;
     width: 72px;
     height: 72px;
     margin: 0 auto;
-    display: block;
     fill: #ed1e67;
     margin-bottom: 20px; }  
-   .icon.svg-phone {
+  .icon.svg-phone {
     width: 76px;
-    height: 76px; }  
+    height: 76px; } 
+  .icon.svg-viber {
+    width: 78px;
+    height: 78px; }  
 
 .phone-number--buyingSection {
   margin-top: 20px;
