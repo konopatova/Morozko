@@ -2380,6 +2380,9 @@ body {
   font-size: 26px;
   color: #000; }
 
+.order__item-select, .order__item-input--number {
+  margin-left: 25px;}
+
 .order__item-img {
   transform: translate(20%, 0); }
 
