@@ -1266,9 +1266,11 @@ body {
 .lang { 
   color: #848484;
   margin-right: 18px; }
- .lang:visited, .lang:hover, .lang:active {
+ .lang:visited, .lang:active {
     color: inherit;   
     text-decoration: none; }
+  .lang:hover {
+    color: #ed1e67; }
 
 .selected {
   color: #ed1e67;
@@ -1305,47 +1307,7 @@ body {
   width: 70px;
   height: 70px;
   background-image: url("../img/bg-images/icon-instagram.png"); }
- /* .social-icons__link::before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    width: 86px;
-    height: 86px;
-    border-radius: 50%;
-    z-index: -1;
-    -webkit-transition: background-color 200ms linear;
-    transition: background-color 200ms linear; }
-  .social-icons__link .icon {
-    fill: #fff; }
-
-.social-icons__link--vk::before {
-  background-color: #6a96c7; }
-
-.social-icons__link--vk:hover::before {
-  background-color: #8fb0d5; }
-
-.social-icons__link--vk:active::before {
-  background-color: #3e6fa6; }
-
-.social-icons__link--fb::before {
-  background-color: #1e5a99; }
-
-.social-icons__link--fb:hover::before {
-  background-color: #2673c4; }
-
-.social-icons__link--fb:active::before {
-  background-color: #113459; }
-
-.social-icons__link--insta::before {
-  background-color: #548ab6; }
-
-.social-icons__link--insta:hover::before {
-  background-color: #78a2c5; }
-
-.social-icons__link--insta:active::before {
-  background-color: #396385; }*/
-
+ 
 .phone-number {
   padding: 70px 0;
   padding-right: 95px;
