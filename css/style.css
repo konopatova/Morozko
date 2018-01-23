@@ -2217,7 +2217,8 @@ body {
   color: #fff; }
   .email__link:hover,
   .phone__link:hover {
-    color: #fff; }
+    color: #f9aac6;
+    text-decoration: underline; }
 
 .social-list {
   margin: 0;
