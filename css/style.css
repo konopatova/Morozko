@@ -245,9 +245,16 @@ audio:not([controls]) {
   display: none; }
 
 a {
-  background-color: transparent; }
+  background-color: transparent;
+  text-decoration: none; }
+  a:visited {
+    color: #000; 
+    text-decoration: none; }
+  a:hover {
+    color: #ed1e67; 
+    text-decoration: none; }
 
-a:active, a:hover {
+a:visited, a:active, a:hover {
   outline: 0; }
 
 abbr[title] {
@@ -393,14 +400,6 @@ input, button, select, textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
-
-a {
-  color: #337ab7;
-  text-decoration: none; }
-
-a:hover, a:focus {
-  color: #23527c;
-  text-decoration: underline; }
 
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -1268,15 +1267,15 @@ body {
 .lang { 
   color: #848484;
   margin-right: 18px; }
- .lang:hover {
-  text-decoration: none;
-  color: #ed1e67; }
- .lang:active {
-    color: #ed1e67; }
+ .lang:visited, .lang:hover, .lang:active {
+    color: inherit;   
+    text-decoration: none; }
 
 .selected {
   color: #ed1e67;
   font-weight: bold;}
+  .selected:visited {
+    color: #ed1e67; }
 
 .social-icons {
   padding: 70px 0;
@@ -1709,14 +1708,15 @@ body {
     background-size: center; }
 
 .advices-item--radiator::before {
-  background-image: url("../img/bg-images/advice-1.png");}
+  background-image: url("../img/bg-images/advice-1.png"); }
 
 .advices-item--box::before {
   background-image: url("../img/bg-images/advice-2.png");
-  top: 120px;}
+  top: 120px; }
 
 .advices-item--brush::before {
-  background-image: url("../img/bg-images/advice-3.png"); }
+  background-image: url("../img/bg-images/advice-3.png");
+  left: -228px; }
 
 .advices-item__paragraph {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2248,14 +2248,16 @@ body {
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid #fff; }
+  .footer-links-list__item:active,
   .footer-links-list__item:visited {
     color: #fff;
-    text-decoration: none;  }
+    text-decoration: none;
+    border-bottom: 0px solid #fff; }
   .footer-links-list__item:hover {
     color: #f9aac6;
-    text-decoration: none;  }
+    text-decoration: none;
+    border-bottom: 0px solid #fff; }
   
-
 .owner {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
@@ -2294,10 +2296,10 @@ body {
   .rights__policy a {
     color: #fff;
     text-decoration: underline; }
+    .rights__policy a:visited {
+      color: #fff; }
     .rights__policy a:hover {
       color: #ed1e67; }
-      .rights__policy a:visited {
-      color: #fff; }
 
 .about {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2316,10 +2318,10 @@ body {
     background-repeat: no-repeat;
     color: #e39f35;
     text-decoration: underline; }
-    .about__link:hover {
-      color: #ed1e67; }
-    .about__link:visited {
+    .about__link:visited { 
       color: #e39f35; }
+    .about__link:hover { 
+        color: #ed1e67; }
 
 .basket-form {
   width: 100%;
