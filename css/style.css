@@ -1922,6 +1922,7 @@ body {
 
 .links-list__item {
   display: inline-block;
+  vertical-align: top;
   margin-right: 34px;
   padding-bottom: 40px; }
   .links-list__item:nth-child(3n+3) {
@@ -1931,7 +1932,10 @@ body {
   fill: #fff; }
 
 .links-list__button:hover .icon {
-  fill: #fcdbe7; }
+  fill: #f9aac6; }
+.links-list__button:active .icon {
+    position: relative;
+    top: 3px; }
 
 .catalog-specs__wrap {
   background-color: #f3f3f3; }
@@ -2205,7 +2209,7 @@ body {
 
 .social-list__item {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 30px; }
   .social-list__item:last-child {
     margin-right: 0; }
