@@ -1758,10 +1758,15 @@ body {
     .apps-list__link:hover .icon {
       fill: #f14d87; }
   .apps-list__link .icon {
+    width: 72px;
+    height: 72px;
     margin: 0 auto;
     display: block;
     fill: #ed1e67;
-    margin-bottom: 20px; }
+    margin-bottom: 20px; }  
+   .icon.svg-phone {
+    width: 76px;
+    height: 76px; }  
 
 .phone-number--buyingSection {
   margin-top: 20px;
