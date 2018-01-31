@@ -1418,6 +1418,13 @@ body {
   font-style: normal;
   font-size: 82px;
   letter-spacing: 35px; }
+  .promo__title--thiccText__en {
+    display: block;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 64px;
+    letter-spacing: 10px; }
 
 .promo__text {
   font-family: "Roboto", "Arial", sans-serif;
@@ -1449,6 +1456,7 @@ body {
 
 .promo-features-item__title {
   display: block;
+  white-space: nowrap;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -1720,7 +1728,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 35px;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 90px; }
 
@@ -1730,12 +1738,13 @@ body {
 .apps-list {
   padding: 0;
   margin: 0;
+  text-align: center;
   list-style: none;
   font-size: 0; }
 
 .apps-list__item {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
   margin-right: 72px; }
   .apps-list__item:last-child {
     margin-right: 0; }
@@ -1906,10 +1915,10 @@ body {
 .links-list {
   position: relative;
   z-index: 1;
-  text-align: left;
+  text-align: justify;
   width: 100%;
   margin: 0 auto;
-  padding: 60px 50px 20px 70px;
+  padding: 50px 50px 20px 50px;
   font-size: 0;
   background-color: #ed1e67;
   border-radius: 0 0 50px 50px;
@@ -2223,7 +2232,9 @@ body {
     top: 3px;}
 
 .footer-links-list__item {
-  margin: 0 10px 10px 0;
+  margin: 0 10px 10px 0; }
+
+.footer-links-list__link {
   white-space: nowrap;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 200;
@@ -2232,15 +2243,16 @@ body {
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid #fff; }
-  .footer-links-list__item:active,
-  .footer-links-list__item:visited {
+  .footer-links-list__link:active,
+  .footer-links-list__link:visited {
     color: #fff;
     text-decoration: none;
     border-bottom: 0px solid #fff; }
-  .footer-links-list__item:hover {
+  .footer-links-list__link:hover {
     color: #f9aac6;
     text-decoration: none;
     border-bottom: 0px solid #fff; }
+
   
 .owner {
   font-family: "Roboto", "Arial", sans-serif;
