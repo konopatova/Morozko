@@ -1459,7 +1459,6 @@ body {
 
 .promo-features-item__title {
   display: block;
-  white-space: nowrap;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -1467,6 +1466,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 15px; }
+
+.promo-features-item__title--delivery {
+  white-space: nowrap;
+  margin-left: -30px; }
 
 .promo-features-item__descr {
   margin: 0 auto;
