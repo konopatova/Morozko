@@ -1381,6 +1381,7 @@ body {
 .promo {
   padding: 0 70px;
   position: relative;
+  background-color: #161616;
   background-image: url("../img/bg-images/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1560,6 +1561,7 @@ body {
 
 .sizes {
   padding-top: 110px;
+  background-color: #161616;
   background-image: url("../img/bg-images/bg-4.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1729,6 +1731,7 @@ body {
   padding: 40px 0 112px; }
 
 .buying {
+  background-color: #353535;
   background-image: url("../img/bg-images/bg-3.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -2199,6 +2202,7 @@ body {
   padding-bottom: 125px; }
 
 .page-footer {
+  background-color: #d21e5e;
   background-image: url("../img/bg-images/bg-2.png");
   background-repeat: no-repeat;
   background-size: auto; }
