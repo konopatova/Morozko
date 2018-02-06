@@ -1322,9 +1322,11 @@ body {
     background-position: -0px -442px;
     background-repeat: no-repeat;
     transform: translate(0, 20%); }
-  
+
+.phone-number__link--headerSection {
+  padding-left: 70px;}
+
 .phone-number__link {
-  padding-left: 70px;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -1678,6 +1680,18 @@ body {
     left: -235px;
     background-image: url("../img/spritebox-sprite.png");
     background-repeat: no-repeat; }
+
+.advices-item--radiator::before {
+  background-position: -293px -0px;
+  height: 201px;
+  width: 174px;
+  top: 40px; }
+
+.advices-item--box::before {
+  background-position: -293px -213px;
+  height: 158px;
+  width: 169px;
+  top: 120px; }
 
 .advices-item--radiator__en::before {
   background-position: -293px -0px;
