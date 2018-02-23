@@ -2243,7 +2243,7 @@ body {
     left: 70%;}
       
 .contacts__list {
-    padding-top: 120px; }
+    padding: 120px 0 0 200px; }
 
 .contacts__title {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2316,6 +2316,9 @@ body {
     position: relative;
     top: 3px;}
 
+.footer-links-social {
+  padding-left: 200px; }    
+
 .footer-links-list__item {
   margin: 0 10px 20px 0; }
 
@@ -2338,6 +2341,8 @@ body {
     text-decoration: none;
     border-bottom: 0px solid #fff; }
 
+.owner, .rights__policy, .copy, .rights {
+  padding-left: 200px;}   
   
 .owner {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2365,8 +2370,7 @@ body {
   font-style: normal;
   font-size: 26px;
   color: #fff;
-  padding-top: 20px;
-  padding-right: 30px; }
+  padding-top: 20px; }
 
 .rights__policy {
   font-family: "Roboto", "Arial", sans-serif;
